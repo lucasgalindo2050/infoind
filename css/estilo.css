@@ -1,0 +1,184 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+header {
+    text-align: center;
+    background-color: rgb(43, 158, 43);
+    width: 100%;
+    height: 140px;
+}
+body{
+    font-family: 'Calibri', sans-serif;
+    background-color: rgb(240, 240, 240);
+}
+header h1 {
+    font-weight: 700;
+    text-transform: uppercase;
+    color: white;
+    margin-bottom: 6px;
+    font-size: xx-large;
+    text-align: center;
+}
+nav{
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    margin: 0 auto;
+    margin-top: 7px;
+    width: 90%;
+    height: 42px;
+    margin-top: 20px;
+}
+nav ul{
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    gap: 20px;
+    width: 100%;
+    justify-content: center;
+}
+nav ul li :hover{
+    background-color: white;
+    opacity: 0.6;
+    border-radius: 6px;
+}
+a{
+    text-decoration: none;
+}
+#info{
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 7px;
+    margin-left: 400px;
+    margin-right: 600px;
+    height: 150px;
+    width: 50%;
+    background:linear-gradient(to right, rgb(0, 145, 0), rgb(255, 0, 0));
+    box-shadow: 3px,3px,3px, black;
+    border-radius: 4px; 
+}
+#sobre{
+    text-align: center;
+    margin-top: 10px;
+    margin-top: 10px;
+    margin-bottom: 7px;
+    margin-left: 400px;
+    margin-right: 600px;
+    height: 100px;
+    width: 50%;
+    background-color: rgb(255, 255, 255);
+    box-shadow: 3px,3px,3px, black;
+    border-radius: 4px;
+}
+#sobre h2{
+    text-align: left;
+    padding-left: 30px;
+}
+#programa{
+    margin-left: 400px;
+    margin-top: 10px;
+    margin-right: 600px;
+    padding-left: 30px;
+    height: 110px;
+    width: 50%;
+    background-color: rgb(255, 255, 255);
+    box-shadow: 3px,3px,3px, black;
+    border-radius: 4px;
+}
+#palestrantes{
+    margin-left: 400px;
+    margin-top: 10px;
+    margin-right: 600px;
+    height: 220px;
+    width: 50%;
+    background-color: rgb(255, 255, 255);
+    box-shadow: 3px,3px,3px, black;
+    border-radius: 4px;
+}
+#palestrantes h2{
+    font-size: 22px;
+}
+.grid{
+    display: flex;
+    text-align: center;
+    margin-left: 5px;
+}
+article{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-left: 4px solid rgb(43, 158, 43);
+    background-color: rgb(255, 255, 255);
+}
+
+#img1 foto{
+    background-image: url(imagens/milton.jpg);
+    width: 150px;
+    height: 150px;
+}
+#img2 foto{
+    background-image: url(imagens/doacir.jpg);
+    width: 150px;
+    height: 150px;
+}
+#img3 foto{
+    background-image: url(imagens/charmes.jpg);
+    width: 150px;
+    height: 150px;
+}
+.grid img{
+    width: 90px;
+    height: 90px;
+    border-radius: 50%;
+    margin-top: 10px;
+}
+#info h1{
+    font-size: 25px;
+    color: white;
+}
+#info p{
+    font-size: 12px;
+    color: white;
+    margin-top: 10px;
+}
+.btn{
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: rgb(255, 0, 0);
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    margin-top: 10px;
+}
+#incricao{
+    margin-top: 10px;
+    margin-bottom: 7px;
+    margin-left: 400px;
+    margin-right: 600px;
+    height: 100px;
+    width: 50%;
+    background-color: rgb(255, 255, 255);
+    box-shadow: 3px,3px,3px, black;
+    border-radius: 4px;
+}
+
+
+
+
+
+
+
+footer{
+    text-align: center;
+    background-color: rgb(43, 158, 43);
+    width: 100%;
+    height: 70px;
+    margin-top: 20px;
+}
+footer p{
+    color: white;
+    text-decoration: none;
+}
